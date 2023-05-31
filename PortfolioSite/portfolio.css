@@ -38,6 +38,9 @@ profile picture?, click to section */
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 
@@ -105,7 +108,7 @@ h3 { font-size: var(--fs-h3) }
     right: 0;
     z-index: 100;
     cursor: pointer;
-    transform:translateX(100%);
+    transform: translateX(100%);
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
@@ -125,10 +128,11 @@ h3 { font-size: var(--fs-h3) }
     color: inherit;
     font-weight: var(--fw-bold);
     font-size: var(--fs-h3);
+    text-decoration: none;
 }
 
 .nav_link:hover {
-    color: var(--clr-light);
+    color: white;
   
 }
 
