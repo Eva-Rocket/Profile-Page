@@ -129,7 +129,6 @@ h3 { font-size: var(--fs-h3) }
 
 .nav_link:hover {
     color: var(--clr-light);
-    cursor: pointer;
   
 }
 
