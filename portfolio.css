@@ -53,6 +53,10 @@ body {
     line-height: 1.6;
 }
 
+a {
+       text-decoration: none;
+}
+
 img {
     display: block;
     max-width: 100%;
